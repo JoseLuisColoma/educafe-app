@@ -1,0 +1,6 @@
+@each $clave in getBorderRadiusKeys(){   
+    $value:getBorderRadius($clave);
+        .g--border-radius-#{$clave}{
+            @include border-radius($clave);
+        }
+}

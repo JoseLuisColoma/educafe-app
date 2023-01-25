@@ -1,0 +1,15 @@
+@each $tipoColor in getColorsKeys(){
+    @each $variante in getVariantesColorsKeys(){
+      $value:getColors($tipoColor, $variante);
+        .g--background-color-#{$tipoColor}-#{$variante} {
+          background-color: $value;
+        }
+        .g--color-#{$tipoColor}-#{$variante} {
+          color: $value;
+        } 
+        .g--border-color-#{$tipoColor}-#{$variante} {
+          border-color: $value;
+        }
+    }
+
+}

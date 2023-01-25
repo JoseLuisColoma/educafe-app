@@ -1,0 +1,23 @@
+.c-nav {
+    position: fixed;
+    width: 100%;
+    background-color: getColors("principal", 5);
+    z-index: 10;
+
+    &__item {
+        margin-top: getMargin(3);
+        margin-bottom: getMargin(3);
+        margin-left: getMargin(12);
+        margin-right: getMargin(12);
+
+        &--center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &__img {
+        height: 80px;
+        cursor: pointer;
+    }
+}

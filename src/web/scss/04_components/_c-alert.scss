@@ -1,0 +1,68 @@
+.c-alert {
+    display: none;
+    position: fixed;
+
+    z-index: 9999;
+    left: 20px;
+    top: 20px;
+    overflow: auto;
+
+    border-width: 0;
+    border-radius: getBorderRadius(4);
+    background-color: getColors("principal", 8);
+
+    padding: getPadding(0);
+
+    width: 350px;
+
+    &__header {
+        background-color: getColors("principal", 0);
+
+        padding-left: getPadding(8);
+        padding-right: getPadding(8);
+        padding-top: getPadding(3);
+        padding-bottom: getPadding(3);
+
+        margin: getMargin(0);
+
+    }
+
+    &__body {
+        padding-left: getPadding(8);
+        padding-right: getPadding(8);
+        padding-top: getPadding(4);
+        padding-bottom: getPadding(6);
+    }
+
+    &::backdrop {
+        background-color: rgb(0, 0, 0, 0.0) !important;
+    }
+
+    animation: showAlert 0.75s ease-in normal;
+
+    @keyframes showAlert {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+            ;
+        }
+    }
+
+    &--close {
+        animation: hideAlert 0.75s ease-out normal;
+
+        @keyframes hideAlert {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+    }
+
+}

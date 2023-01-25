@@ -1,0 +1,73 @@
+.c-icon {
+    font-size: getFontSize("4xl");
+    color: getColors("principal", 0);
+    margin: getMargin(5);
+    cursor: pointer;
+    position: relative;
+
+    &--grey {
+        color: getColors("gris", 5)
+    }
+
+    &--alternativo {
+        color: getColors("alternativo", 3);
+        margin: getMargin(5);
+    }
+
+    &--lighter {
+        color: getColors("principal", 8);
+        margin-top: getMargin(2);
+    }
+
+    &--close {
+        color: getColors("principal", 0);
+        font-size: getFontSize("2xl");
+        cursor: pointer;
+
+        &:hover {
+            color: #541C24;
+        }
+
+        &-light {
+            color: getColors("principal", 8);
+
+            &:hover {
+                color: getColors("principal", 6);
+            }
+        }
+    }
+    &--2xl{
+        margin: getMargin(2);
+        font-size: getFontSize("xl");
+    }
+    
+    &--small {
+        margin: getMargin(2);
+        font-size: getFontSize("xl");
+    }
+
+    &__burbuja {
+        position: absolute;
+        top: -15px;
+        right: -15px;
+
+        background-color: getColors("principal", 3);
+        border-radius: getBorderRadius(5);
+
+        font-family: getFontFamily("principal");
+
+        padding-left: getPadding(3);
+        padding-right: getPadding(3);
+        padding-bottom: getPadding(1);
+        padding-top: getPadding(1);
+    }
+
+    &--big {
+        font-size: getFontSize("6xl");
+    }
+
+    &--xsmall {
+        margin: getMargin(2);
+        font-size: getFontSize("m");
+    }
+}

@@ -1,0 +1,27 @@
+@each $key in getPaddingKeys() {
+  $value:getPadding($key);
+  .g--padding-#{$key}{
+    padding: $value;
+  }
+  .g--padding-left-#{$key}{
+    padding-left: $value;
+  }
+  .g--padding-right-#{$key}{
+    padding-right: $value;
+  }
+  .g--padding-top-#{$key}{
+    padding-top: $value;
+  }
+  .g--padding-bottom-#{$key}{
+    padding-bottom: $value;
+  }
+  .g--padding-horizontal-#{$key}{
+      padding-left: $value;
+      padding-right: $value;
+  }
+  .g--padding-vertical-#{$key}{
+      padding-top: $value;
+      padding-bottom: $value;
+  }
+  
+}

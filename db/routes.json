@@ -1,0 +1,8 @@
+{
+    "/historial_carritos/:id": "/carritos?id_usuario=:id",
+    "/historial_pagos/:id": "/pagos?id_usuario=:id",
+    "/productos/categoria/:id": "/productos?id_categoria=:id",
+    "/login/:user": "/usuarios?correo=:user",
+    "/carritoActual/:user": "/carritos?id_usuario=:user&estado=2",
+    "/carrito/:id":"/carritos?id=:id"
+}

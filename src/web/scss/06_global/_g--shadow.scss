@@ -1,0 +1,5 @@
+@each $key in getShadowKeys(){
+    .g--box-shadow-#{$key}{
+        @include box-shadow($key);
+    }
+}

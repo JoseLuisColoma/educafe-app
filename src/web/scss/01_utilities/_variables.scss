@@ -1,0 +1,52 @@
+$colors: (
+    "principal":(#823f44, #9B7559, #AB896D, #BAA187, #C7B49E, #D6C9B8, #E3DBCE, #F2EFE8, #FFFFFF),
+    "alternativo":(#011907, #0F431E, #29653D, #487F5D, #619E7A, #80B79A, #9DD7BA, #BCF0D9, #E6FEF4),
+    "naranja":(#f9efd3, #f8dfad, #f5cd88, #f6b860, #fd9132, #fd7804, #d56701, #935203, #4b2d01),
+    "gris":(#f9efd3, #bcbcbc, #868585, #7e7d7d, #636362, #454444, #3b3b3b, #1b1b1b, #050505),
+    "blanco":(#FFFFFF, #FCFCFC, #FAFAFA, #F4F5F5, #F2F2F2, #F0F0F0, #EDEDED, #E8E8E8, #E6E6E6),
+    "rojo":(#f9d3d3, #f8adad, #f58888, #f66060, #fd3232, #fd0404, #d50101, #930303, #4b0101),
+    "verde":(#d3f9df, #adf8d3, #88f5ae, #60f68a, #32fd61, #04fd46, #01d564, #039327, #014b1a),
+    "azul":(#d3dbf9, #adbdf8, #88a0f5, #6080f6, #325efd, #043afd, #012fd5, #032293, #01114b),
+    "amarillo":(#f9f8d3, #f8f7ad, #f5f188, #f6f160, #fdf332, #f1fd04, #c0d501, #938e03, #4b4701),
+);
+
+$margin-values: (0px,4px,6px,8px,10px,12px,16px,20px,24px,32px,40px,48px,64px,80px,96px,128px);
+
+$padding-values: (0px,4px,6px,8px,10px,12px,16px,20px,24px,32px,40px,48px,64px,80px,96px,128px);
+
+$font-size: (
+    "xs":12px,
+    "s":14px,
+    "m":16px,
+    "l":18px,
+    "xl":20px,
+    "2xl":24px,
+    "3xl":30px,
+    "4xl":36px,
+    "5xl":40px,
+    "6xl":80px
+);
+
+$border-radius: (0px,2px,4px,6px,8px,16px);
+
+$font-family: (
+    "principal":"Quicksand, sans-serif",
+    "alternativo":"'Lato', sans-serif"
+);
+
+$gap: (0px,4px,6px,8px,10px,12px,16px,20px,24px,32px,40px,48px,64px,80px,96px,128px,160px,192px,224px,256px,320px,480px,640px);
+
+$background-images: (
+    "light":"../assets/img/pattern-01.jpg",
+    "medium":"../assets/img/pattern-02.jpg",
+    "semi-dark":"../assets/img/pattern-03.jpg",
+    "dark":"../assets/img/pattern-04.jpg"
+);
+
+$shadow: (
+    "0px 1px 3px rgba(0, 0, 0, 0.2)",
+    "0px 4px 6px rgba(0, 0, 0, 0.2)",
+    "0px 5px 15px rgba(0, 0, 0, 0.2)",
+    "0px 10px 24px rgba(0, 0, 0, 0.2)",
+    "0px 15px 35px rgba(0, 0, 0, 0.2)"
+);

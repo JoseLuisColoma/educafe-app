@@ -1,0 +1,27 @@
+@each $key in getMarginKeys() {
+    $value:getMargin($key);
+    .g--margin-#{$key}{
+      margin: $value;
+    }
+    .g--margin-left-#{$key}{
+      margin-left: $value;
+    }
+    .g--margin-right-#{$key}{
+      margin-right: $value;
+    }  
+    .g--margin-top-#{$key}{
+      margin-top: $value;
+    }
+    .g--margin-bottom-#{$key}{
+      margin-bottom: $value;
+    }
+    .g--margin-horizontal-#{$key}{
+        margin-left: $value;
+        margin-right: $value;
+    }
+    .g--margin-vertical-#{$key}{
+        margin-top: $value;
+        margin-bottom: $value;
+    }
+    
+  }

@@ -1,0 +1,6 @@
+@each $key in getFontFamilyKeys() {
+    $value:getFontFamily($key);
+      .g--font-family-#{$key} {
+        font-family: $value;
+      }
+  }

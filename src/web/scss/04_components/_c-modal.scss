@@ -1,0 +1,74 @@
+.c-modal {
+  border-width: 0;
+  border-radius: getBorderRadius(4);
+  background-color: getColors("principal", 1);
+
+  padding: getPadding(8);
+
+  &--fit-content {
+    width: fit-content;
+  }
+  &--xxsmall {
+    width: 25vw;
+  }
+
+  &--xsmall {
+    width: 35vw;
+  }
+
+  &--small {
+    width: 45vw;
+  }
+
+  &--medium {
+    width: 50vw;
+
+  }
+
+  &--large {
+    width: 60vw;
+
+  }
+
+  &--extraLarge {
+    width: 80vw;
+  }
+
+  &::backdrop {
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(0, 0, 0, 0.3) !important;
+  }
+
+  animation: show 0.75s ease normal;
+  
+
+  @keyframes show {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -50%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  &--close {
+    animation: hide 0.75s ease normal;
+
+    @keyframes hide {
+      from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translate3d(0, -50%, 0);
+
+      }
+    }
+  }
+}

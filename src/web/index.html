@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Grupo A">
+  <meta name="description" content="Web EduCafé, cafetería online para tener tu comida lista en la hora del descanso en tu centro educativo">
+  <meta name="keywords" content="cafetería, educafe, comida, educacion, cafeteria instituto, servicio de comida">
+
+  <link rel="icon" type="image/x-icon" href="./assets/img/EducaCafe-1-16.png">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <script src="https://kit.fontawesome.com/16ac316f21.js" crossorigin="anonymous"></script>
+  <script src="./js/carrito.js"></script>
+  <script src="./js/user.js"></script>
+  <script src="./js/utilities.js"></script>
+  <script src="./js/modals.js"></script>
+  <script src="./js/tienda.js"></script>
+
+  <title>EduCafé</title>
+</head>
+
+<body>
+  <header>
+    <nav class="c-nav l-flex l-flex l-flex--align-items-center">
+      <div class="c-nav__item">
+        <img class="c-nav__img refresh" src="./assets/img/logo-01.png" alt="educafe_logo">
+
+      </div>
+      <div class="c-nav__item  c-nav__item--center">
+        <img class="c-nav__img refresh" src="./assets/img/EducaCafe-1-06.png" alt="educafe_title">
+      </div>
+      <div class="c-nav__item">
+        <i id="login_icon" class="c-icon fa-solid fa-user"></i>
+        <i id="cart_icon" class="c-icon fa-solid fa-cart-shopping"><span id="cart_menu_num"></span></i>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="c-main c-main--background-semi-dark"></main>
+
+  <footer class="c-footer">
+    <div class="l-flex l-flex--justify-content-center l-flex--align-items-center">
+      <a class="c-footer__item" href="">Términos</a>
+      <a class="c-footer__item" href="">Política de privacidad</a>
+      <a class="c-footer__item" href="">Contacto</a>
+    </div>
+    <div class="c-footer__item c-footer__item--blanco">Pavela Enterprise &copy; 2022-2023</div>
+  </footer>
+</body>
+
+<dialog id="dialog" class="c-modal"></dialog>
+<dialog id="confirmacion" class="c-modal"></dialog>
+<div id="alert" class="c-alert"></div>
+
+</html>

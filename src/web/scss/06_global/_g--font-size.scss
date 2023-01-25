@@ -1,0 +1,6 @@
+@each $key in getFontSizeKeys() {
+  $value:getFontSize($key);
+    .g--font-size-#{$key} {
+      font-size: $value;
+    }
+}

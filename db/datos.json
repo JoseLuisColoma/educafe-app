@@ -1,0 +1,561 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "id_categoria": "1",
+      "nombre": "café solo",
+      "descripcion": "Nuestro expresso más sabroso, con todo nuestro aroma de siempre. ¡Un clásico!",
+      "precio": 0.7
+    },
+    {
+      "id": "2",
+      "id_categoria": "1",
+      "nombre": "café cortado",
+      "descripcion": "¡El típico! Perfecto para los que necesitan el café con un toque de leche",
+      "precio": 0.8
+    },
+    {
+      "id": "3",
+      "id_categoria": "1",
+      "nombre": "café bombón",
+      "descripcion": "El más dulce nuestros cafés. ¡Endúlzate el día!",
+      "precio": 0.8
+    },
+    {
+      "id": "4",
+      "id_categoria": "1",
+      "nombre": "vaso de leche",
+      "descripcion": "Porque no todo el mundo quiere café, tu aporte lácteo del día",
+      "precio": 1
+    },
+    {
+      "id": "5",
+      "id_categoria": "1",
+      "nombre": "colacao",
+      "descripcion": "La alegría necesaria para el vaso de leche, ¡el Cola-Cao!",
+      "precio": 1.1
+    },
+    {
+      "id": "6",
+      "id_categoria": "1",
+      "nombre": "capuccino",
+      "descripcion": "Para los más exigentes y que necesitan algo más que café",
+      "precio": 1.2
+    },
+    {
+      "id": "7",
+      "id_categoria": "1",
+      "nombre": "café americano",
+      "descripcion": "Las tazas grandes no siempre tienen que tener la combinación de café y leche, ¡puede ser café y agua!",
+      "precio": 0.8
+    },
+    {
+      "id": "8",
+      "id_categoria": "1",
+      "nombre": "café del tiempo",
+      "descripcion": "¡El rey contra el calor! Nuestro expresso con hielo y limón",
+      "precio": 1.2
+    },
+    {
+      "id": "9",
+      "id_categoria": "2",
+      "nombre": "Coca-cola",
+      "descripcion": "La lata de Coca-Cola de toda la vida, ¡refrescante!",
+      "precio": 1.2
+    },
+    {
+      "id": "10",
+      "id_categoria": "2",
+      "nombre": "Coca-cola zero",
+      "descripcion": "El mejor sabor de Coca-Cola con cero azúcar",
+      "precio": 1.2
+    },
+    {
+      "id": "11",
+      "id_categoria": "2",
+      "nombre": "Fanta naranja/limón",
+      "descripcion": "Tú eliges, ¿eres más de naranja o de limón?",
+      "precio": 1.2
+    },
+    {
+      "id": "12",
+      "id_categoria": "2",
+      "nombre": "Aquarius naranja/limón",
+      "descripcion": "La bebida de los deportistas",
+      "precio": 1.3
+    },
+    {
+      "id": "13",
+      "id_categoria": "2",
+      "nombre": "Monster verde",
+      "descripcion": "La energía extra que necesitas cuando no puedes más",
+      "precio": 2
+    },
+    {
+      "id": "14",
+      "id_categoria": "2",
+      "nombre": "Red Bull",
+      "descripcion": "Todos necesitamos que nos den alas para rendir mejor",
+      "precio": 2.2
+    },
+    {
+      "id": "15",
+      "id_categoria": "2",
+      "nombre": "Zumos",
+      "descripcion": "Los mejores zumos naturales de frutas de proximidad",
+      "precio": 1.2
+    },
+    {
+      "id": "16",
+      "id_categoria": "2",
+      "nombre": "Batidos",
+      "descripcion": "Agítalos bien antes de tomarlos, ¡te endulzarán!",
+      "precio": 1.2
+    },
+    {
+      "id": "17",
+      "id_categoria": "2",
+      "nombre": "Bifrutas",
+      "descripcion": "El brick más sabroso y vitaminado",
+      "precio": 1.2
+    },
+    {
+      "id": "18",
+      "id_categoria": "2",
+      "nombre": "Agua pequeña.",
+      "descripcion": "Para quien quiere matar su sed rápidamente",
+      "precio": 0.8
+    },
+    {
+      "id": "19",
+      "id_categoria": "2",
+      "nombre": "Agua con gas",
+      "descripcion": "Hay quien necesita el agua con algo más",
+      "precio": 0.8
+    },
+    {
+      "id": "20",
+      "id_categoria": "2",
+      "nombre": "Agua grande 1.5l",
+      "descripcion": "El depósito de gasolina para tu día a día",
+      "precio": 1.2
+    },
+    {
+      "id": "21",
+      "id_categoria": "3",
+      "nombre": "Bocadillo pequeño",
+      "descripcion": "Apodado el “quita-hambres”, tremendamente sabroso",
+      "precio": 2
+    },
+    {
+      "id": "22",
+      "id_categoria": "3",
+      "nombre": "Bocadillo completo",
+      "descripcion": "La estrella del menú, pídelo con los ingredientes que más te gusten",
+      "precio": 2
+    },
+    {
+      "id": "23",
+      "id_categoria": "3",
+      "nombre": "Pulga (montadito)",
+      "descripcion": "El bocadillo más rápido de todo el oeste, forastero",
+      "precio": 1.7
+    },
+    {
+      "id": "24",
+      "id_categoria": "3",
+      "nombre": "Paninis",
+      "descripcion": "Aroma italiano en nuestra cafetería",
+      "precio": 1.2
+    },
+    {
+      "id": "25",
+      "id_categoria": "4",
+      "nombre": "Caracolas",
+      "descripcion": "Enróllate con nuestras delicias",
+      "precio": 0.5
+    },
+    {
+      "id": "26",
+      "id_categoria": "4",
+      "nombre": "MiniEnsaimadas",
+      "descripcion": "Porque las cosas pequeñas también son sabrosas y dulces",
+      "precio": 0.5
+    },
+    {
+      "id": "27",
+      "id_categoria": "4",
+      "nombre": "Caracola Grande",
+      "descripcion": "Siempre alguien tiene más apetito, con ella te saciarás",
+      "precio": 1.2
+    },
+    {
+      "id": "28",
+      "id_categoria": "4",
+      "nombre": "Triángulo de chocolate",
+      "descripcion": "El dulce más apreciado por los estudiantes de trigonometría",
+      "precio": 1.5
+    },
+    {
+      "id": "29",
+      "id_categoria": "5",
+      "nombre": "Empanadilla de pisto",
+      "descripcion": "El topicazo de la cafetería, no podía faltar",
+      "precio": 1.2
+    },
+    {
+      "id": "30",
+      "id_categoria": "5",
+      "nombre": "Empanadilla de espinacas",
+      "descripcion": "Las favoritas de Popeye",
+      "precio": 1.5
+    },
+    {
+      "id": "31",
+      "id_categoria": "5",
+      "nombre": "Napolitanas jamón/queso",
+      "descripcion": "La mejor combinación: jamón y queso. ¡Inigualable!",
+      "precio": 1.5
+    },
+    {
+      "id": "32",
+      "id_categoria": "5",
+      "nombre": "Rosquilletas",
+      "descripcion": "Lo más crujiente que tenemos, todos las quieren",
+      "precio": 1.5
+    },
+    {
+      "id": "33",
+      "id_categoria": "6",
+      "nombre": "Mikado",
+      "descripcion": "Para entretenerse y disfrutar",
+      "precio": 1.2
+    },
+    {
+      "id": "34",
+      "id_categoria": "6",
+      "nombre": "Oreo",
+      "descripcion": "El sabor de siempre a un precio irresistible",
+      "precio": 1.2
+    },
+    {
+      "id": "35",
+      "id_categoria": "6",
+      "nombre": "Kinder blanco/negro",
+      "descripcion": "Elige tu sabor favorito, blanco o negro",
+      "precio": 1.2
+    },
+    {
+      "id": "36",
+      "id_categoria": "6",
+      "nombre": "Krits",
+      "descripcion": "Algo salado para contrarrestar tanto dulce",
+      "precio": 1.2
+    },
+    {
+      "id": "37",
+      "id_categoria": "6",
+      "nombre": "Filipinos",
+      "descripcion": "Están tan buenos que te los comerás sin darte cuenta",
+      "precio": 1
+    },
+    {
+      "id": "38",
+      "id_categoria": "6",
+      "nombre": "Halls",
+      "descripcion": "Los caramelos favoritos de Chiquito de la Calzada",
+      "precio": 1
+    },
+    {
+      "id": "39",
+      "id_categoria": "6",
+      "nombre": "Chuches grande",
+      "descripcion": "¡El bolsón! Y no de la comarca de la Tierra Media",
+      "precio": 1
+    },
+    {
+      "id": "40",
+      "id_categoria": "6",
+      "nombre": "Chuches pequeña",
+      "descripcion": "Se adapta a cualquier bolsillo. Siempre disponible para una emergencia dulce",
+      "precio": 0.5
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "cafés"
+    },
+    {
+      "id": 2,
+      "nombre": "bebidas"
+    },
+    {
+      "id": 3,
+      "nombre": "bocadillos"
+    },
+    {
+      "id": 4,
+      "nombre": "dulces"
+    },
+    {
+      "id": 5,
+      "nombre": "salados"
+    },
+    {
+      "id": 6,
+      "nombre": "snacks"
+    }
+  ],
+  "usuarios": [
+    {
+      "nombre": "Jose Luis ",
+      "apellidos": "Coloma Tormo",
+      "correo": "joseluis@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "nombre": "Pau ",
+      "apellidos": "Fandos Gorris",
+      "correo": "fandosgorrispau@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "nombre": "Pau",
+      "apellidos": "Fandos",
+      "correo": "a@a.es",
+      "password": "1",
+      "id": 3
+    }
+  ],
+  "carritos": [
+    {
+      "id": 1674200412599,
+      "fecha": "20-00-2023",
+      "estado": 0,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "23",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "22",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674200512390,
+      "fecha": "20-00-2023",
+      "estado": 0,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "11",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "15",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "14",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674200868769,
+      "fecha": "20-00-2023",
+      "estado": 0,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "23",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "22",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674201078071,
+      "fecha": "20-00-2023",
+      "estado": 1,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "23",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674201588337,
+      "fecha": "20-00-2023",
+      "estado": 1,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 2
+        },
+        {
+          "id_producto": "23",
+          "cantidad": 3
+        },
+        {
+          "id_producto": "21",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674201788671,
+      "fecha": "20-00-2023",
+      "estado": 1,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "23",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674201853424,
+      "fecha": "20-00-2023",
+      "estado": 1,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674203362663,
+      "fecha": "20-00-2023",
+      "estado": 1,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "23",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674203425360,
+      "fecha": "20-00-2023",
+      "estado": 1,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "23",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674211959937,
+      "fecha": "20-00-2023",
+      "estado": 0,
+      "id_usuario": 3,
+      "productos": [
+        {
+          "id_producto": "12",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "11",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1674213054237,
+      "fecha": "20-00-2023",
+      "estado": 2,
+      "id_usuario": 2,
+      "productos": [
+        {
+          "id_producto": "24",
+          "cantidad": 1
+        },
+        {
+          "id_producto": "23",
+          "cantidad": 1
+        }
+      ]
+    }
+  ],
+  "pagos": [
+    {
+      "nombreTarjeta": "PAU FANDOS GORRIS",
+      "numeroTarjeta": "1111-1111-1111-1111",
+      "codigoSeguridad": "234",
+      "fechaCaducidad": "13/32",
+      "id_carrito": "1674200412599",
+      "id_usuario": 2,
+      "id": 1
+    },
+    {
+      "nombreTarjeta": "PAU FANDOS GORRIS",
+      "numeroTarjeta": "1111-1111-1111-1111",
+      "codigoSeguridad": "234",
+      "fechaCaducidad": "23/42",
+      "id_carrito": "1674200512390",
+      "id_usuario": 2,
+      "id": 2
+    },
+    {
+      "nombreTarjeta": "pau",
+      "numeroTarjeta": "1111-1111-1111-1111",
+      "codigoSeguridad": "345",
+      "fechaCaducidad": "12/26",
+      "id_carrito": "1674211959937",
+      "id_usuario": 3,
+      "id": 3
+    },
+    {
+      "nombreTarjeta": "sdsad",
+      "numeroTarjeta": "1111-1111-1111-1111",
+      "codigoSeguridad": "233",
+      "fechaCaducidad": "12/34",
+      "id_carrito": "1674200868769",
+      "id_usuario": 2,
+      "id": 4
+    }
+  ]
+}

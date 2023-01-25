@@ -1,0 +1,12 @@
+.c-bubble{
+    font-family: getFontFamily("principal");
+    background-color: getColors("principal",5);
+
+    padding: getPadding(8);
+    @include border-radius(4);
+
+    &--dark{
+        background-color: getColors("principal",1);
+        width: 100%;
+    }
+}

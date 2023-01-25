@@ -1,0 +1,11 @@
+.c-products{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    gap: getGap(10);
+
+    text-align: center;
+    background-color: getColors("principal", 5);
+
+    padding: getPadding(10);
+    @include border-radius(4);
+}

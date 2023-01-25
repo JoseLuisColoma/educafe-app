@@ -1,0 +1,103 @@
+.c-button {
+  font-size: getFontSize("s");
+  font-weight: bold;
+  font-family: getFontFamily("principal");
+  text-decoration: none;
+
+  color: getColors("principal", 7);
+  background-color: getColors("principal", 0);
+
+  border-color: getColors("principal", 0);
+  border-style: solid;
+
+  padding-left: getPadding(6);
+  padding-right: getPadding(6);
+  padding-top: getPadding(3);
+  padding-bottom: getPadding(3);
+
+  @include border-radius(4);
+  @include box-shadow(0);
+  cursor: pointer;
+
+  &--secundario {
+    background-color: getColors("principal", 5);
+    color: getColors("principal", 0);
+    border-color: getColors("principal", 5);
+
+    &:hover {
+      background-color: getColors("principal", 4) !important;
+      border-color: getColors("principal", 4) !important;
+    }
+  }
+
+  &--terciario{
+    color: getColors("rojo", 6);
+    background-color: transparent !important;
+    
+    border: 0 !important;
+    padding: getPadding(2) !important;
+    box-shadow: none;
+
+    &:hover {
+      color: getColors("rojo", 7);
+      background-color: transparent !important;
+      border: 0 !important;
+    }
+  }
+
+  &--principal-terciario{
+    font-size: getFontSize("xs");
+    font-weight: 500;
+    color: getColors("principal", 0);
+    background-color: transparent ;
+    
+    border: 0 ;
+    box-shadow: none;
+
+    &:hover {
+      color: getColors("principal", 0);
+      background-color: transparent !important;
+      border: 0 ;
+    }
+  }
+
+  &--alternativo-terciario{
+    font-size: getFontSize("xs");
+    font-weight: 500;
+    color: getColors("principal", 5);
+    background-color: transparent;
+    
+    border: 0;
+    box-shadow: none;
+
+    &:hover {
+      color: getColors("principal", 5);
+      background-color: transparent !important;
+      border: 0;
+    }
+  }
+
+  &--danger {
+    color: getColors("blanco", 0);
+    background-color: getColors("rojo", 5);
+    border-color: getColors("rojo", 5);
+
+    &:hover {
+      background-color: getColors("rojo", 6) !important;
+      border-color: getColors("rojo", 6) !important;
+    }
+  }
+
+  &:hover {
+    background-color: #541C24;
+    border-color: #541C24;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}

@@ -1,0 +1,28 @@
+.c-cart-row {
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr 1.5fr 0.5fr 0.5fr 0.5fr 2fr;
+    gap: getGap(6);
+
+    color: getColors("principal", 0);
+    font-size: getFontSize("m");
+
+    padding-top: getPadding(4);
+    padding-bottom: getPadding(4);
+    border-bottom: 1px solid getColors("principal", 2);
+
+    &__img {
+        width: 70px;
+        object-fit: cover;
+    }
+
+    &--bold {
+        font-weight: bold;
+    }
+
+    &--6-columns {
+        grid-template-columns: 0.7fr 1.3fr 1.5fr 0.5fr 0.5fr 0.5fr;
+    }
+    &--4-columns {
+        grid-template-columns: 1.5fr 2fr 1.5fr 2fr;
+    }
+}

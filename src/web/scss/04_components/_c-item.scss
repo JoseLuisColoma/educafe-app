@@ -1,0 +1,55 @@
+.c-item {
+    background-color: getColors("principal", 6);
+    @include border-radius(4);
+
+    &__img {
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    &__title {
+        font-size: getFontSize("xl");
+        font-weight: 600;
+        font-family: getFontFamily("principal");
+
+        color: getColors("principal", 6);
+        background-color: getColors("principal", 0);
+
+        padding-left: getPadding(7);
+        padding-right: getPadding(7);
+        padding-top: getPadding(11);
+        padding-bottom: getPadding(11);
+
+        height: 10vh;
+        @include border-top-left-radius(4);
+        @include border-top-right-radius(4);
+    }
+
+    &__footer {
+        padding-left: getPadding(5);
+        padding-right: getPadding(5);
+
+    }
+
+    &__price {
+        font-size: getFontSize("2xl");
+        font-weight: 700;
+        font-family: getFontFamily("alternativo");
+        
+        margin-top: getMargin(3);
+        margin-bottom: getMargin(3);
+    }
+
+    &__icon {
+        margin-top: getMargin(3);
+        margin-bottom: getMargin(3);
+        &--right {
+            margin-left: auto;
+        }
+
+        &--left {
+            margin-right: auto;
+        }
+    }
+}

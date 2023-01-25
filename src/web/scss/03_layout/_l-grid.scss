@@ -1,0 +1,18 @@
+.l-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+   
+  }
+
+  .l-rows {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+   
+    @for $i from 1 to 12 {
+      &--#{$i} {
+        grid-template-rows: repeat($i, 1fr);
+      }    
+    } 
+     
+  }

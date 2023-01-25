@@ -1,0 +1,37 @@
+.c-input{
+    font-size: getFontSize("s");
+    color: getColors("principal", 0) !important;
+    font-weight: 500;
+
+    border-radius: getBorderRadius(3);
+    border: 0;
+
+    margin-top: getMargin(2);
+    margin-bottom: getMargin(4);
+    padding: getPadding(6);
+    
+    display: block;
+    height: 35px;
+    @include box-shadow(1);
+
+    &--w-100{
+        display: inline-block;
+        width: 100%;
+    }
+    &--w-90{
+        display: inline-block;
+        width: 90%;
+    }
+    &--w-80{
+        display: inline-block;
+        width: 80%;
+    }
+    &--w-50{
+        display: inline-block;
+        width: 50%;
+    }
+
+    &:focus{
+        outline: 0 !important;
+    }
+}

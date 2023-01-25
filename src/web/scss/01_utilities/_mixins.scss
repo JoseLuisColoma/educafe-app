@@ -1,0 +1,37 @@
+//BOX SHADOW
+@mixin box-shadow($key) {
+  -webkit-box-shadow: getShadow($key);
+  -moz-box-shadow: getShadow($key);
+  box-shadow: getShadow($key);
+}
+
+//BORDER RADIUS
+@mixin border-radius($key) {
+  -webkit-border-radius: getBorderRadius($key);
+  -moz-border-radius: getBorderRadius($key);
+  border-radius: getBorderRadius($key);
+}
+
+@mixin border-top-left-radius($key) {
+  -webkit-border-top-left-radius: getBorderRadius($key);
+  -moz-border-top-left-radius: getBorderRadius($key);
+  border-top-left-radius: getBorderRadius($key);
+}
+
+@mixin border-top-right-radius($key) {
+  -webkit-border-top-right-radius: getBorderRadius($key);
+  -moz-border-top-right-radius: getBorderRadius($key);
+  border-top-right-radius: getBorderRadius($key);
+}
+
+@mixin border-bottom-left-radius($key) {
+  -webkit-border-bottom-left-radius: getBorderRadius($key);
+  -moz-border-bottom-left-radius: getBorderRadius($key);
+  border-bottom-left-radius: getBorderRadius($key);
+}
+
+@mixin border-bottom-right-radius($key) {
+  -webkit-border-bottom-right-radius: getBorderRadius($key);
+  -moz-border-bottom-right-radius: getBorderRadius($key);
+  border-bottom-right-radius: getBorderRadius($key);
+}

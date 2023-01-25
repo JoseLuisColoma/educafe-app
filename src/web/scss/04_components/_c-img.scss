@@ -1,0 +1,14 @@
+.c-img{
+    width: 350px;
+    box-sizing: border-box;
+    border-radius: getBorderRadius(4);
+    object-fit: cover;
+
+    &--big{
+        width: 450px;
+    }
+
+    &--small{
+        width: 250px;
+    }
+}

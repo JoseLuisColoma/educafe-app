@@ -1,0 +1,20 @@
+.c-cart-list {
+    color: getColors("principal", 0);
+    padding-top: getPadding(4);
+    padding-bottom: getPadding(4);
+    border-bottom: 1px solid getColors("principal", 2);
+
+    &__item {
+        margin-left: getMargin(3);
+        margin-right: getMargin(3);
+
+        &--right {
+            margin-left: getMargin(8);
+            margin-right: auto;
+        }
+    }
+
+    &__title-cart {
+        font-weight: bold;
+    }
+}

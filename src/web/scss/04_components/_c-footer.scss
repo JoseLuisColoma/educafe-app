@@ -1,0 +1,15 @@
+.c-footer {
+    text-align: center;
+    background-color: getColors("principal", 0);
+    padding: getPadding(5);
+
+    &__item {
+        font-family: getFontFamily("alternativo");
+        color: getColors("principal", 5);
+        margin: getMargin(5);
+
+        &--blanco {
+            color: getColors("blanco", 1);
+        }
+    }
+}
